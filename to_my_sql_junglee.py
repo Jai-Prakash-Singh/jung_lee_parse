@@ -23,7 +23,7 @@ def my_strip(x):
 
 
 def main(directory, filename):
-    db = MySQLdb.connect("localhost","root","6Tresxcvbhy","jungleesecond")
+    db = MySQLdb.connect("localhost","root","xxxx","jungleesecond")
     cursor = db.cursor()
 
     f = open(filename)
