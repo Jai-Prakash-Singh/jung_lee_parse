@@ -121,7 +121,7 @@ def supermain(directory):
     databasename = "jungleesecond"
     databasetable = "jungleesecond_data"
     dbusername =  "root"
-    dbpassword = "6Tresxcvbhy"
+    dbpassword = "XXXX"
     obj = upload_to_cdn(dbusername, dbpassword, directory, databasename, databasetable, link)
     obj.connect_to_db()
     obj.extract_sku_image_link()
